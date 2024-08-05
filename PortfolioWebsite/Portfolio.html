@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sakshi Portfolio Website</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="typing.css">
+    <script src="https://kit.fontawesome.com/4f272c0f0e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <div class="left">
+            <img src="logo.png" alt="S">
+            <div id="name">akshi</div> 
+        </div>  
+        <div class="right">
+            <ul>
+                <li><a href="#firstsection">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Projects</a></li>
+                <li><a href="/">Contact Me</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <section id="firstsection">
+            <div id="leftsection">
+                <div class="b">Hello, My Name is <span class="black b ">Sakshi</span></div> 
+                <!-- <div>Welcome to my Portifolio Website </div> -->
+                <div class="b">I am a passionate</div>
+                <div id="typing-container">
+                    <span id="typing-text" class="b"></span>
+                    <span class="cursor"></span>
+                </div>
+            </div>
+            <div id="rightsection">
+                <img src="bg.webp" alt="Loading Image">
+            </div>
+        </section>
+    </main>
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about_col1">
+                    <img src="female-developer.avif" alt="developer Pic">
+                </div>
+                <div class="about_col2">
+                   <h1 class="b heading"> About Me</h1> 
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo vero minima accusamus ab quidem cum autem odio nam laudantium commodi, qui quis, totam vel tenetur reiciendis. Laboriosam, dignissimos! Animi minima eos nobis?</p>
+
+                   <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('education')" >Education</p>
+                   </div>
+                   <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Web Development</span><br>Designing WebApps/Web Pages</li>
+                        <li><span>Backend Development</span><br>Knowledge of Node.js and Express for Server Side Development</li>
+                        <li><span>Database Connectivity</span><br>Experience of connectivity of MongoDb as well as Sql Databases known.</li>
+                    </ul>
+                   </div>
+                   <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2023-205</span><br>Masters in Computer Science</li>
+                        <li><span>2020-2023</span><br>Bachelors in Computer Science</li>
+                    </ul>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <h1 class="b heading center">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Website Development</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum soluta vero deleniti vitae placeat tempora ullam dicta pariatur atque corporis.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-node"></i>
+                <h2>Backend Development</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum soluta vero deleniti vitae placeat tempora ullam dicta pariatur atque corporis.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>Web Application Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum soluta vero deleniti vitae placeat tempora ullam dicta pariatur atque corporis.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="container">
+            <h1 class="b heading center">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work1.jpg" alt="">
+                    <div class="layer">
+                        <h3>Dance Website</h3>
+                        <p>The Web App can be used to contact to the india's most talented trainers and join their academy.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work2.jpg" alt="">
+                    <div class="layer">
+                        <h3>EventLitez</h3>
+                        <p>The Web App can be used to maintain the record of the events and the respective location and date.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work3.jpg" alt="">
+                    <div class="layer">
+                        <h3>Calculator</h3>
+                        <p>The Calculator app is the first basic app developed by me with the help of html,css and javaScript</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </section>
+    <!-- Contact form -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="b heading big">Contact Me</h1>
+                    <div class="icon-contact">
+                        <i class="fa-solid fa-paper-plane"></i>
+                        <p>sharmasakshi3114@gmail.com</p>
+                    </div>
+                    <div class="icon-contact">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>94654&cross;&cross;&cross;&cross;&cross;</p>
+                    </div>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="Sakshi Shama Recent.pdf" download="Sakshi.pdf">
+                        <button type="button" class="btnn">Download File</button>
+                    </a>
+                </div>
+               <div class="contact-right">
+                    <form >
+                        <input type="text" name="Name" placeholder="Your Name">
+                        <input type="email" name="Email" placeholder="Your email">
+                        <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn">Submit</button>
+                    </form>
+               </div>
+
+            </div>
+        </div>
+    </section>
+    <script src="portfolio.js"></script>
+</body>
+</html>

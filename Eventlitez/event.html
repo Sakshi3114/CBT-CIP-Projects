@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVENTLITEZ</title>
+    <link rel="stylesheet" href="event.css">
+    <script src="https://kit.fontawesome.com/4f272c0f0e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <img src="no-projects.png" alt="Event list">
+        <h1>EVENTLITEZ</h1>
+    </header>
+    <main>
+        <div id = "event">
+            <div id="form" >
+                <label for="eventname">Event Name :</label>
+                <input type="text" id="eventname">
+                <label for="eventdate">Event Date :</label>
+                <input type="date" id="eventdate">
+                <label for="eventtime">Event Time :</label>
+                <input type="time" id="eventtime">
+                <label for="eventloc">Event Location :</label>
+                <input type="text" id="eventloc">
+                <button onclick = Add() id = 'btn' > Add Event</button>
+            </div>
+        </div>
+        <h2>Event List</h2>
+        <div class ="list">
+            
+        </div>
+    </main>
+
+
+    <script src="event.js"></script>
+</body>
+</html>

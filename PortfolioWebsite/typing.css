@@ -1,0 +1,18 @@
+#typing-container {
+    display: inline-block; 
+    position: relative; 
+    color: black;
+}
+
+.cursor {
+    position: absolute;
+    right: 0; 
+    width: 2px; 
+    height: 1.2em; 
+    background: white; 
+    animation: blink 0.75s step-start infinite; 
+}
+
+@keyframes blink {
+    50% { opacity: 0; } 
+}
